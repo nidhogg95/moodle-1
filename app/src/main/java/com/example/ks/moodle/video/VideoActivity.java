@@ -2,31 +2,30 @@ package com.example.ks.moodle.video;
 
 import android.Manifest;
 import android.app.Activity;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.media.MediaPlayer;
-import android.media.session.MediaSession;
 import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
-import android.widget.MediaController;
 import android.widget.SeekBar;
 import android.widget.Toast;
 import android.widget.VideoView;
 
 import com.example.ks.moodle.R;
-
-import java.io.File;
+import com.example.ks.moodle.StatisticsHelper;
 
 public class VideoActivity extends Activity {
     private final String TAG="main";
-    private EditText et_path;
     private Button btn_play,btn_pause,btn_replay,btn_stop;
     private SeekBar seekBar;//进度条
     private VideoView vv_video;//视频区域
     private boolean isPlaying;
+
+    private int id=0;
+    private int idb=0;
 
 
     @Override
@@ -52,7 +51,7 @@ public class VideoActivity extends Activity {
 
         //找到相应的组件
         seekBar = (SeekBar) findViewById(R.id.seekBar);
-        et_path = (EditText) findViewById(R.id.et_path);
+
         vv_video = (VideoView) findViewById(R.id.vv_videoview);
         btn_play = (Button) findViewById(R.id.btn_play);
         btn_pause = (Button) findViewById(R.id.btn_pause);
@@ -66,12 +65,14 @@ public class VideoActivity extends Activity {
         btn_play.setOnClickListener(click);
 
         // 为进度条添加进度更改事件
+        int currentPosition=vv_video.getCurrentPosition();
 
         seekBar.setOnSeekBarChangeListener(change);
     }
     private SeekBar.OnSeekBarChangeListener change=new SeekBar.OnSeekBarChangeListener() {
         @Override
         public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
+
 
         }
 
@@ -99,9 +100,17 @@ public class VideoActivity extends Activity {
         public void onClick(View v) {
             switch(v.getId()){
                 case R.id.btn_play:
+                    Log.d("点击开始播放键","1次");
+                    id++;
+                    //事件统计
+                    StatisticsHelper.getInstance().AddEvent(VideoActivity.this,"event_play"+id,null);
                     play(0);
                     break;
                 case R.id.btn_pause:
+                    Log.d("点击暂停键","1次");
+                    idb++;
+                    //事件统计
+                    StatisticsHelper.getInstance().AddEvent(VideoActivity.this,"event_pause"+idb,null);
                     pause();
                     break;
                 case R.id.btn_stop:
@@ -117,14 +126,8 @@ public class VideoActivity extends Activity {
     };
     protected void play(int msec){
         Log.i(TAG,"获取视频文件地址");
-        String path=et_path.getText().toString().trim();
-        File file=new File(path);
-        if(!file.exists()){
-            Toast.makeText(this, "视频文件路径错误", Toast.LENGTH_SHORT).show();
-            return;
-        }
-        Log.i(TAG,"指定视频源路径");
-        vv_video.setVideoPath(file.getAbsolutePath());
+        Intent intent=getIntent();
+        vv_video.setVideoURI(android.net.Uri.parse(intent.getStringExtra("url")));
         Log.i(TAG,"开始播放");
         vv_video.start();
 

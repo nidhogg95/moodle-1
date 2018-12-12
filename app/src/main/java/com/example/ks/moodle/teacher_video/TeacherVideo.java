@@ -8,6 +8,7 @@ import android.widget.TextView;
 
 import com.example.ks.moodle.R;
 import com.example.ks.moodle.video.ControllerActivity;
+import com.example.ks.moodle.video.VideoActivity2;
 
 
 //首先继承Activity
@@ -46,8 +47,8 @@ public class TeacherVideo extends Activity {
         chenTv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(TeacherVideo.this, ControllerActivity.class);
-                intent.putExtra("url","http://222.29.159.118/mp4files/1245000001542D72/software-moodle.oss-cn-qingdao.aliyuncs.com/moodle_vedio/beidawlf_01_02_02.mp4");
+                Intent intent=new Intent(TeacherVideo.this, VideoActivity2.class);
+                intent.putExtra("url","http://software-moodle.oss-cn-qingdao.aliyuncs.com/moodle_vedio/beidawlf_01_02_02.mp4");
                 startActivity(intent);
             }
         });

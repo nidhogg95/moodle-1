@@ -7,7 +7,6 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.example.ks.moodle.R;
-import com.example.ks.moodle.entity.Teacher;
 import com.example.ks.moodle.video.ControllerActivity;
 
 public class TeacherVideo2 extends Activity{
@@ -34,7 +33,7 @@ public class TeacherVideo2 extends Activity{
             @Override
             public void onClick(View view) {
                 Intent intent=new Intent(TeacherVideo2.this, ControllerActivity.class);
-                intent.putExtra("url","http://222.29.159.120/mp4files/112000000155E8F1/software-moodle.oss-cn-qingdao.aliyuncs.com/moodle_vedio/beidawlf_01_02_05.mp4");
+                intent.putExtra("url","http://software-moodle.oss-cn-qingdao.aliyuncs.com/moodle_vedio/beidawlf_01_02_05.mp4");
                 startActivity(intent);
 
             }

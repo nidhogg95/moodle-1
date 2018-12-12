@@ -4,12 +4,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
-    <EditText
-        android:id="@+id/et_path"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="/sdcard/english.mp4" />
-
     <SeekBar
         android:id="@+id/seekBar"
         android:layout_width="match_parent"

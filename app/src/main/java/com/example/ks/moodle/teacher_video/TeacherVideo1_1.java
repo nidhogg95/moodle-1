@@ -12,7 +12,7 @@ import com.example.ks.moodle.video.VideoActivity2;
 
 
 //首先继承Activity
-public class TeacherVideo extends Activity {
+public class TeacherVideo1_1 extends Activity {
 
     private TextView chenTv; //定义第一个文本框
     private TextView meiTv; //定义第二个文本框
@@ -30,7 +30,7 @@ public class TeacherVideo extends Activity {
             @Override
             public void onClick(View view) {
                 //构造一个意图intent，有了意图才能界面跳转
-                Intent intent=new Intent(TeacherVideo.this, MyActivity1.class);
+                Intent intent=new Intent(TeacherVideo1_1.this, MyActivity1.class);
                 startActivity(intent);
             }
         });
@@ -39,7 +39,7 @@ public class TeacherVideo extends Activity {
             @Override
             public void onClick(View view) {
                 //构造一个意图intent，有了意图才能界面跳转
-                Intent intent=new Intent(TeacherVideo.this, MyActivity1.class);
+                Intent intent=new Intent(TeacherVideo1_1.this, MyActivity1.class);
                 startActivity(intent);
             }
         });
@@ -47,7 +47,7 @@ public class TeacherVideo extends Activity {
         chenTv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(TeacherVideo.this, VideoActivity2.class);
+                Intent intent=new Intent(TeacherVideo1_1.this, VideoActivity2.class);
                 intent.putExtra("url","http://software-moodle.oss-cn-qingdao.aliyuncs.com/moodle_vedio/beidawlf_01_02_02.mp4");
                 startActivity(intent);
             }
@@ -55,7 +55,7 @@ public class TeacherVideo extends Activity {
         meiTv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(TeacherVideo.this, ControllerActivity.class);
+                Intent intent=new Intent(TeacherVideo1_1.this, ControllerActivity.class);
                 intent.putExtra("url","http://222.29.159.119/mp4files/1152000001553C81/software-moodle.oss-cn-qingdao.aliyuncs.com/moodle_vedio/zhedacy_01_02_01.mp4");
                 startActivity(intent);
 

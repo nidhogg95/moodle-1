@@ -9,7 +9,7 @@ import android.widget.TextView;
 import com.example.ks.moodle.R;
 import com.example.ks.moodle.video.ControllerActivity;
 
-public class TeacherVideo4_1 extends Activity{
+public class TeacherVideo1_4_1 extends Activity{
     private TextView pubuTv;
     private TextView zengliangTv;
     private TextView luoxuanTv;
@@ -24,7 +24,7 @@ public class TeacherVideo4_1 extends Activity{
         pubuTv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(TeacherVideo4_1.this, ControllerActivity.class);
+                Intent intent = new Intent(TeacherVideo1_4_1.this, ControllerActivity.class);
                 intent.putExtra("url","http://222.29.159.120/mp4files/518400000157F562/software-moodle.oss-cn-qingdao.aliyuncs.com/moodle_vedio/zhedacy_01_05_04.mp4");
                 startActivity(intent);
             }
@@ -32,7 +32,7 @@ public class TeacherVideo4_1 extends Activity{
         zengliangTv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(TeacherVideo4_1.this, ControllerActivity.class);
+                Intent intent = new Intent(TeacherVideo1_4_1.this, ControllerActivity.class);
                 intent.putExtra("url","http://222.29.159.120/mp4files/20570000015E86E2/software-moodle.oss-cn-qingdao.aliyuncs.com/moodle_vedio/zhedacy_01_05_05.mp4");
                 startActivity(intent);
 
@@ -41,7 +41,7 @@ public class TeacherVideo4_1 extends Activity{
         luoxuanTv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(TeacherVideo4_1.this, ControllerActivity.class);
+                Intent intent = new Intent(TeacherVideo1_4_1.this, ControllerActivity.class);
                 intent.putExtra("url","http://222.29.159.120/mp4files/20570000015E86E2/software-moodle.oss-cn-qingdao.aliyuncs.com/moodle_vedio/zhedacy_01_05_08.mp4");
                 startActivity(intent);
             }
@@ -49,7 +49,7 @@ public class TeacherVideo4_1 extends Activity{
         rantionTv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(TeacherVideo4_1.this, ControllerActivity.class);
+                Intent intent = new Intent(TeacherVideo1_4_1.this, ControllerActivity.class);
                 intent.putExtra("url","http://222.29.159.120/mp4files/20570000015E86E2/software-moodle.oss-cn-qingdao.aliyuncs.com/moodle_vedio/zhedacy_01_05_11.mp4");
                 startActivity(intent);
             }

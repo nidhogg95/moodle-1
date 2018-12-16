@@ -140,17 +140,17 @@ public class TestExpendListView extends Activity {
                         Toast.makeText(TestExpendListView.this, str,
                                 Toast.LENGTH_SHORT).show();
                         if(groupPosition==0&&childPosition==0){
-                            Intent intent = new Intent(TestExpendListView.this, TeacherVideo.class);
+                            Intent intent = new Intent(TestExpendListView.this, TeacherVideo1_1.class);
                             startActivity(intent);
                         }else if(groupPosition==0&&childPosition==1){
-                            Intent intent = new Intent(TestExpendListView.this, TeacherVideo2.class);
+                            Intent intent = new Intent(TestExpendListView.this, TeacherVideo1_2.class);
                             startActivity(intent);
                         }else if(groupPosition==0&&childPosition==2){
                             Intent intent = new Intent(TestExpendListView.this, TeacherVideo1_3.class);
                             startActivity(intent);
 
                         }else if(groupPosition==0&&childPosition==3){
-                            Intent intent = new Intent(TestExpendListView.this, TeacherVideo4.class);
+                            Intent intent = new Intent(TestExpendListView.this, TeacherVideo1_4.class);
                             startActivity(intent);
                         }
 

@@ -102,6 +102,8 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+
+ //第一章
         <activity android:name=".teacher_video.teacher_video1.TeacherVideo1_1">
             <intent-filter>
 
@@ -117,6 +119,27 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+
+        <activity android:name=".teacher_video.teacher_video1.TeacherVideo1_3">
+            <intent-filter>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".teacher_video.teacher_video1.TeacherVideo1_4">
+            <intent-filter>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".teacher_video.teacher_video1.TeacherVideo1_4_1">
+            <intent-filter>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+//第二章
 
         <activity android:name=".teacher_video.teacher_video2.TeacherVideo2_3">
             <intent-filter>
@@ -152,7 +175,7 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-
+//第三章
         <activity android:name=".teacher_video.teacher_video3.TeacherVideo3_1">
             <intent-filter>
 
@@ -245,25 +268,147 @@
         </activity>
 
 
-        <activity android:name=".teacher_video.teacher_video1.TeacherVideo1_3">
-            <intent-filter>
 
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
-        </activity>
-        <activity android:name=".teacher_video.teacher_video1.TeacherVideo1_4">
-            <intent-filter>
 
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
-        </activity>
-        <activity android:name=".teacher_video.teacher_video1.TeacherVideo1_4_1">
+//第五章
+
+        <activity android:name=".teacher_video.teacher_video5.TeacherVideo5_2">
             <intent-filter>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
 
+        <activity android:name=".teacher_video.teacher_video5.TeacherVideo5_2_1">
+            <intent-filter>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".teacher_video.teacher_video5.TeacherVideo5_3">
+            <intent-filter>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".teacher_video.teacher_video5.TeacherVideo5_3_1">
+            <intent-filter>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".teacher_video.teacher_video5.TeacherVideo5_5">
+            <intent-filter>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".teacher_video.teacher_video5.TeacherVideo5_5_1">
+            <intent-filter>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+
+
+ //第六章
+        <activity android:name=".teacher_video.teacher_video6.TeacherVideo6_2">
+            <intent-filter>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".teacher_video.teacher_video6.TeacherVideo6_3">
+            <intent-filter>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".teacher_video.teacher_video6.TeacherVideo6_3_1">
+            <intent-filter>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+//第七章
+
+        <activity android:name=".teacher_video.teacher_video7.TeacherVideo7_2">
+            <intent-filter>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".teacher_video.teacher_video7.TeacherVideo7_2_1">
+            <intent-filter>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".teacher_video.teacher_video7.TeacherVideo7_3">
+            <intent-filter>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".teacher_video.teacher_video7.TeacherVideo7_4">
+            <intent-filter>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".teacher_video.teacher_video7.TeacherVideo7_6">
+            <intent-filter>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".teacher_video.teacher_video7.TeacherVideo7_6_1">
+            <intent-filter>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".teacher_video.teacher_video7.TeacherVideo7_7">
+            <intent-filter>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".teacher_video.teacher_video7.TeacherVideo7_7_1">
+            <intent-filter>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".teacher_video.teacher_video7.TeacherVideo7_7_2">
+            <intent-filter>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".teacher_video.teacher_video7.TeacherVideo7_8">
+            <intent-filter>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
 
 
 

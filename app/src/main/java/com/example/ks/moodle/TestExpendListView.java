@@ -23,6 +23,12 @@ import com.example.ks.moodle.teacher_video.teacher_video3.TeacherVideo3_1;
 import com.example.ks.moodle.teacher_video.teacher_video3.TeacherVideo3_2;
 import com.example.ks.moodle.teacher_video.teacher_video3.TeacherVideo3_3;
 import com.example.ks.moodle.teacher_video.teacher_video3.TeacherVideo3_8;
+import com.example.ks.moodle.teacher_video.teacher_video5.TeacherVideo5_2;
+import com.example.ks.moodle.teacher_video.teacher_video5.TeacherVideo5_3;
+import com.example.ks.moodle.teacher_video.teacher_video5.TeacherVideo5_5;
+import com.example.ks.moodle.teacher_video.teacher_video6.TeacherVideo6_2;
+import com.example.ks.moodle.teacher_video.teacher_video6.TeacherVideo6_3;
+import com.example.ks.moodle.teacher_video.teacher_video7.*;
 import com.example.ks.moodle.util.TreeViewAdapter;
 
 import java.util.ArrayList;
@@ -150,6 +156,7 @@ public class TestExpendListView extends Activity {
                         String str =  groups[groupPosition]  + child[groupPosition][childPosition];
                         Toast.makeText(TestExpendListView.this, str,
                                 Toast.LENGTH_SHORT).show();
+ //第一章
                         if(groupPosition==0&&childPosition==0){
                             Intent intent = new Intent(TestExpendListView.this, TeacherVideo1_1.class);
                             startActivity(intent);
@@ -164,7 +171,7 @@ public class TestExpendListView extends Activity {
                             Intent intent = new Intent(TestExpendListView.this, TeacherVideo1_4.class);
                             startActivity(intent);
                         }
-
+//第二章
                         else if(groupPosition==1&&childPosition==2){
                             Intent intent = new Intent(TestExpendListView.this, TeacherVideo2_3.class);
                             startActivity(intent);
@@ -179,7 +186,7 @@ public class TestExpendListView extends Activity {
                             Intent intent = new Intent(TestExpendListView.this, TeacherVideo2_6.class);
                             startActivity(intent);
                         }
-
+//第三章
                         else if(groupPosition==2&&childPosition==0){
                             Intent intent = new Intent(TestExpendListView.this, TeacherVideo3_1.class);
                             startActivity(intent);
@@ -194,6 +201,53 @@ public class TestExpendListView extends Activity {
                         }
                         else if(groupPosition==2&&childPosition==7){
                             Intent intent = new Intent(TestExpendListView.this, TeacherVideo3_8.class);
+                            startActivity(intent);
+                        }
+//第五章
+                        else if(groupPosition==4&&childPosition==1){
+                            Intent intent = new Intent(TestExpendListView.this, TeacherVideo5_2.class);
+                            startActivity(intent);
+                        }
+                        else if(groupPosition==4&&childPosition==2){
+                            Intent intent = new Intent(TestExpendListView.this, TeacherVideo5_3.class);
+                            startActivity(intent);
+                        }
+                        else if(groupPosition==4&&childPosition==4){
+                            Intent intent = new Intent(TestExpendListView.this, TeacherVideo5_5.class);
+                            startActivity(intent);
+                        }
+//第六章
+                        else if(groupPosition==5&&childPosition==1){
+                            Intent intent = new Intent(TestExpendListView.this, TeacherVideo6_2.class);
+                            startActivity(intent);
+                        }
+                        else if(groupPosition==5&&childPosition==2){
+                            Intent intent = new Intent(TestExpendListView.this, TeacherVideo6_3.class);
+                            startActivity(intent);
+                        }
+//第七章
+                        else if(groupPosition==6&&childPosition==1){
+                            Intent intent = new Intent(TestExpendListView.this, TeacherVideo7_2.class);
+                            startActivity(intent);
+                        }
+                        else if(groupPosition==6&&childPosition==2){
+                            Intent intent = new Intent(TestExpendListView.this, TeacherVideo7_3.class);
+                            startActivity(intent);
+                        }
+                        else if(groupPosition==6&&childPosition==3){
+                            Intent intent = new Intent(TestExpendListView.this, TeacherVideo7_4.class);
+                            startActivity(intent);
+                        }
+                        else if(groupPosition==6&&childPosition==5){
+                            Intent intent = new Intent(TestExpendListView.this, TeacherVideo7_6.class);
+                            startActivity(intent);
+                        }
+                        else if(groupPosition==6&&childPosition==6){
+                            Intent intent = new Intent(TestExpendListView.this, TeacherVideo7_7.class);
+                            startActivity(intent);
+                        }
+                        else if(groupPosition==6&&childPosition==7){
+                            Intent intent = new Intent(TestExpendListView.this, TeacherVideo7_8.class);
                             startActivity(intent);
                         }
 

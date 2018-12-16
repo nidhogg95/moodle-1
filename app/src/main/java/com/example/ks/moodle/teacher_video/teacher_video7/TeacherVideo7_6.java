@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.example.ks.moodle.R;
+import com.example.ks.moodle.video.VideoActivity2;
 
 public class TeacherVideo7_6 extends Activity {
 
@@ -34,7 +35,8 @@ public class TeacherVideo7_6 extends Activity {
         chen7_6Tv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(TeacherVideo7_6.this,TeacherVideo7_6_2.class);
+                Intent intent=new Intent(TeacherVideo7_6.this, VideoActivity2.class);
+                intent.putExtra("url","http://software-moodle.oss-cn-qingdao.aliyuncs.com/moodle_vedio/zhedacy_04_03_04.mp4");
                 startActivity(intent);
             }
         });

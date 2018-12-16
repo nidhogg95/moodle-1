@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+            android:id="@+id/sun5_5_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.数据流图分类，变换型DFD、事务型DFD"
+            android:textSize="30dp"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold"/>
+
+    <TextView
+            android:id="@+id/sun5_5_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.变换设计的基本步骤"
+            android:textSize="30dp"
+            android:layout_marginTop="16dp"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold"/>
+    <TextView
+            android:id="@+id/sun5_5_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.事务设计的基本步骤"
+            android:textSize="30dp"
+            android:layout_marginTop="16dp"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold"/>
+    <TextView
+            android:id="@+id/sun5_5_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4.总结，案例，输入、输出、变换的精化"
+            android:textSize="30dp"
+            android:layout_marginTop="16dp"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold"/>
+
+</LinearLayout>

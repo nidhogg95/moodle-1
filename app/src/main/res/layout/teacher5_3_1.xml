@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+            android:id="@+id/sun5_3_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.启发式规则总体介绍"
+            android:textSize="30dp"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold"/>
+
+    <TextView
+            android:id="@+id/sun5_3_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.启发式规则，改进软件结构，提高模块独立性"
+            android:textSize="30dp"
+            android:layout_marginTop="16dp"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold"/>
+    <TextView
+            android:id="@+id/sun5_3_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.启发式规则，模块规模适中—每页60行语句（心理学角度）"
+            android:textSize="30dp"
+            android:layout_marginTop="16dp"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold"/>
+    <TextView
+            android:id="@+id/sun5_3_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4.启发式规则，深度、宽度、扇入和扇出适中"
+            android:textSize="30dp"
+            android:layout_marginTop="16dp"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold"/>
+    <TextView
+            android:id="@+id/sun5_3_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5.启发式规则，模块的作用域力争在控制欲之内"
+            android:textSize="30dp"
+            android:layout_marginTop="16dp"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold"/>
+
+
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+            android:id="@+id/sun7_6_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.白盒测试简介"
+            android:textSize="30dp"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold"/>
+    <TextView
+            android:id="@+id/sun7_6_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.白盒测试_路径测试覆盖"
+            android:textSize="30dp"
+            android:layout_marginTop="16dp"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold"/>
+
+    <TextView
+            android:id="@+id/sun7_6_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.白盒测试_语句覆盖 "
+            android:textSize="30dp"
+            android:layout_marginTop="16dp"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold"/>
+
+    <TextView
+            android:id="@+id/sun7_6_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4.白盒测试_分支覆盖 "
+            android:textSize="30dp"
+            android:layout_marginTop="16dp"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold"/>
+
+    <TextView
+            android:id="@+id/sun7_6_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5.白盒测试_条件组合覆盖"
+            android:textSize="30dp"
+            android:layout_marginTop="16dp"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold"/>
+
+    <TextView
+            android:id="@+id/sun7_6_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6.白盒测试_循环情况下关键路径的选取"
+            android:textSize="30dp"
+            android:layout_marginTop="16dp"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold"/>
+
+</LinearLayout>

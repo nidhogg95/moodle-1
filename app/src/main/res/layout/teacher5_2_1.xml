@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+            android:id="@+id/sun5_2_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.模块和模块化的概念、模块化的原因"
+            android:textSize="30dp"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold"/>
+
+    <TextView
+            android:id="@+id/sun5_2_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.模块化的评价"
+            android:textSize="30dp"
+            android:layout_marginTop="16dp"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold"/>
+    <TextView
+            android:id="@+id/sun5_2_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.模块化的评价——耦合，定义、依赖因素"
+            android:textSize="30dp"
+            android:layout_marginTop="16dp"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold"/>
+    <TextView
+            android:id="@+id/sun5_2_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4.软件工程的学习在于理解而不是背诵概念"
+            android:textSize="30dp"
+            android:layout_marginTop="16dp"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold"/>
+    <TextView
+            android:id="@+id/sun5_2_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5.模块化的评价——耦合，类型、模型、原则"
+            android:textSize="30dp"
+            android:layout_marginTop="16dp"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold"/>
+
+    <TextView
+            android:id="@+id/sun5_2_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6.模块化的评价——内聚，定义、类型、模型"
+            android:textSize="30dp"
+            android:layout_marginTop="16dp"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold"/>
+
+</LinearLayout>

@@ -11,7 +11,18 @@ import android.widget.Toast;
 
 import com.example.ks.moodle.entity.Chapter;
 import com.example.ks.moodle.entity.Lesson;
-import com.example.ks.moodle.teacher_video.*;
+import com.example.ks.moodle.teacher_video.teacher_video1.TeacherVideo1_1;
+import com.example.ks.moodle.teacher_video.teacher_video1.TeacherVideo1_2;
+import com.example.ks.moodle.teacher_video.teacher_video1.TeacherVideo1_3;
+import com.example.ks.moodle.teacher_video.teacher_video1.TeacherVideo1_4;
+import com.example.ks.moodle.teacher_video.teacher_video2.TeacherVideo2_3;
+import com.example.ks.moodle.teacher_video.teacher_video2.TeacherVideo2_4;
+import com.example.ks.moodle.teacher_video.teacher_video2.TeacherVideo2_5;
+import com.example.ks.moodle.teacher_video.teacher_video2.TeacherVideo2_6;
+import com.example.ks.moodle.teacher_video.teacher_video3.TeacherVideo3_1;
+import com.example.ks.moodle.teacher_video.teacher_video3.TeacherVideo3_2;
+import com.example.ks.moodle.teacher_video.teacher_video3.TeacherVideo3_3;
+import com.example.ks.moodle.teacher_video.teacher_video3.TeacherVideo3_8;
 import com.example.ks.moodle.util.TreeViewAdapter;
 
 import java.util.ArrayList;

@@ -61,7 +61,7 @@ public class TeacherVideo5_2_1 extends Activity {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(TeacherVideo5_2_1.this,VideoActivity2.class);
-                intent.putExtra("url","http://software-moodle.oss-cn-qingdao.aliyuncs.com/moodle_vedio/beidawlf_05_02_01.mp4.mp4");
+                intent.putExtra("url","http://software-moodle.oss-cn-qingdao.aliyuncs.com/moodle_vedio/beidawlf_05_02_01.mp4");
                 startActivity(intent);
             }
         });

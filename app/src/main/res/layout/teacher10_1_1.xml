@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/sun10_1_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="第一讲面向对象分析（上）_01"
+        android:textSize="30dp"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/sun10_1_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="第一讲面向对象分析（上）_02"
+        android:textSize="30dp"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/sun10_1_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="第一讲面向对象分析（上）_03"
+        android:textSize="30dp"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>
